@@ -124,6 +124,19 @@
   <li>Weibull models enabled medium- to long-term forecasts (5–20 years) of failure probabilities.</li>
 </ul>
 
+<h2>My Achievements During the Internship</h2>
+<ul>
+  <li><strong>Developed</strong> a complete reliability analysis workflow using Python, from data cleaning to Weibull modeling.</li>
+  <li><strong>Analyzed</strong> over <strong>5</strong> equipment categories across low-, medium-, and high-voltage networks.</li>
+  <li><strong>Built</strong> Weibull models for <strong>5</strong> asset families to estimate failure rates and remaining useful life.</li>
+  <li><strong>Improved</strong> data quality by identifying and correcting the <strong>30%</strong> inconsistent or missing records.</li>
+  <li><strong>Created</strong> visual dashboards and reliability curves used by the asset management team.</li>
+  <li><strong>Delivered</strong> a predictive framework capable of forecasting failures over the next <strong>30</strong> years.</li>
+  <li><strong>Collaborated</strong> with engineers and data analysts to interpret results and support maintenance planning.</li>
+  <li><strong>Documented</strong> the entire methodology to ensure reproducibility and future integration into internal tools.</li>
+</ul>
+
+
 <h2>Tools &amp; Technologies</h2>
 <ul>
   <li><strong>Python:</strong> pandas, numpy, scipy, matplotlib, seaborn</li>
@@ -136,17 +149,8 @@
 <h2>What I Learned</h2>
 <ul>
   <li>Applying statistical reliability models to real-world grid infrastructure.</li>
-  <li>Handling imperfect industrial datasets and censored data.</li>
+  <li>Handling imperfect industrial datasets and need to cope for lack of informations.</li>
   <li>Translating engineering intuition into data-driven insights.</li>
   <li>Communicating results to both technical and non-technical stakeholders.</li>
   <li>Bridging electrical engineering and data science in an operational context.</li>
 </ul>
-
-<h2>Repository Structure</h2>
-<pre>
-├── data/        # Synthetic or anonymized datasets
-├── notebooks/   # EDA and Weibull modeling
-├── src/         # Generalized analysis scripts
-├── results/     # Plots and reliability curves
-└── README.html  # Project documentation
-</pre>
