@@ -140,9 +140,8 @@
 <h2>Tools &amp; Technologies</h2>
 <ul>
   <li><strong>Python:</strong> pandas, numpy, scipy, matplotlib, seaborn</li>
-  <li><strong>Reliability libraries:</strong> lifelines, reliability</li>
+  <li><strong>Reliability interface:</strong> reliability</li>
   <li><strong>Jupyter Notebooks</strong> for analysis and visualization</li>
-  <li><strong>Git</strong> for version control</li>
   <li>Domain knowledge in <strong>power systems</strong> and <strong>equipment aging</strong></li>
 </ul>
 
