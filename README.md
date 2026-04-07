@@ -293,41 +293,66 @@ Interpretation:
 
 <h2>Key Results (High-Level Summary)</h2>
 <ul>
-<li><strong>LV equipment:</strong> high failure count, mostly random behavior (β ≈ 1).</li>
-<li><strong>MV equipment:</strong> clear wear-out patterns (β &gt; 1), indicating aging infrastructure.</li>
-<li><strong>HV equipment:</strong> rare failures but strongly age-dependent.</li>
-<li><strong>NLP analysis:</strong> improved classification of failure modes and reduced ambiguity in technician reports.</li>
-<li>Weibull models enabled medium- to long-term forecasts (5–20 years) of failure probabilities.</li>
+  <li><strong>Identified reliability profiles</strong> for LV, MV, and HV equipment families, revealing distinct aging behaviors and failure dynamics across the grid.</li>
+  <li><strong>Extracted structured failure modes</strong> from technician reports using NLP and LLM-based semantic tagging, reducing ambiguity in historical records.</li>
+  <li><strong>Built Weibull models</strong> that captured wear-out patterns in MV assets (β &gt; 1) and confirmed random failure behavior in LV components (β ≈ 1).</li>
+  <li><strong>Generated hazard curves</strong> and <strong>Remaining Useful Life (RUL)</strong> estimates enabling medium- and long-term forecasts (5–30 years).</li>
+  <li><strong>Linked text-derived failure modes to statistical patterns</strong>, improving interpretability of reliability trends and supporting root-cause analysis.</li>
+  <li><strong>Provided actionable insights</strong> for maintenance prioritization, asset renewal planning, and long-term investment strategies.</li>
 </ul>
+
 
 <h2>My Achievements During the Internship</h2>
 <ul>
-<li><strong>Developed</strong> a complete reliability analysis workflow using Python, from data cleaning to Weibull modeling.</li>
-<li><strong>Implemented</strong> NLP and LLM-based pipelines to analyze unstructured failure descriptions and standardize failure categories.</li>
-<li><strong>Analyzed</strong> over <strong>5</strong> equipment categories across low-, medium-, and high-voltage networks.</li>
-<li><strong>Built</strong> Weibull models for <strong>5</strong> asset families to estimate failure rates and remaining useful life.</li>
-<li><strong>Improved</strong> data quality by identifying and correcting the <strong>30%</strong> inconsistent or missing records.</li>
-<li><strong>Created</strong> visual dashboards and reliability curves used by the asset management team.</li>
-<li><strong>Delivered</strong> a predictive framework capable of forecasting failures over the next <strong>30</strong> years.</li>
-<li><strong>Collaborated</strong> with engineers and data analysts to interpret results and support maintenance planning.</li>
-<li><strong>Documented</strong> the entire methodology to ensure reproducibility and future integration into internal tools.</li>
+  <li><strong>Designed and implemented</strong> an end-to-end reliability analysis pipeline, from raw data ingestion to Weibull-based forecasting.</li>
+  <li><strong>Developed NLP and LLM-powered tools</strong> to interpret unstructured technician failure descriptions, enabling consistent failure mode classification across asset families.</li>
+  <li><strong>Consolidated and cleaned heterogeneous datasets</strong>, correcting approximately <strong>30%</strong> of inconsistent or incomplete records and standardizing equipment metadata.</li>
+  <li><strong>Analyzed reliability behavior</strong> across more than five equipment categories spanning low-, medium-, and high-voltage networks.</li>
+  <li><strong>Built and validated Weibull models</strong> for multiple asset families, producing hazard curves, survival functions, and RUL distributions used by asset managers.</li>
+  <li><strong>Created interactive dashboards and visual analytics</strong> to communicate reliability trends and support operational decision-making.</li>
+  <li><strong>Collaborated with engineers and analysts</strong> to interpret results, validate assumptions, and integrate domain knowledge into the modeling process.</li>
+  <li><strong>Documented the full methodology</strong> to ensure reproducibility and facilitate future integration into Groupe E’s internal tools.</li>
 </ul>
 
+
 <h2>Tools &amp; Technologies</h2>
+
+<h3>1. Data Processing &amp; Analysis</h3>
 <ul>
-<li><strong>Python:</strong> pandas, numpy, scipy, matplotlib, seaborn</li>
-<li><strong>Reliability analysis:</strong> reliability</li>
-<li><strong>NLP &amp; LLMs:</strong> spaCy, scikit-learn, transformer-based models</li>
-<li><strong>Jupyter Notebooks</strong> for analysis and visualization</li>
-<li>Domain knowledge in <strong>power systems</strong> and <strong>equipment aging</strong></li>
+  <li><strong>pandas</strong> — data cleaning, merging, preprocessing</li>
+  <li><strong>numpy</strong> — numerical computations</li>
+  <li><strong>scipy</strong> — statistical functions and optimization</li>
+</ul>
+
+<h3>2. Reliability Engineering</h3>
+<ul>
+  <li><strong>reliability</strong> — Weibull fitting, hazard curves, survival analysis, RUL estimation</li>
+  <li><strong>matplotlib</strong> — reliability curve visualization</li>
+  <li><strong>seaborn</strong> — statistical plotting and EDA visuals</li>
+</ul>
+
+<h3>3. NLP &amp; LLM-Based Text Analysis</h3>
+<ul>
+  <li><strong>spaCy</strong> — tokenization, lemmatization, linguistic preprocessing</li>
+  <li><strong>scikit-learn</strong> — TF-IDF, clustering, keyword extraction</li>
+  <li><strong>transformers</strong> (HuggingFace) — LLM-based semantic classification</li>
+  <li><strong>sentence-transformers</strong> — high-quality text embeddings for semantic similarity</li>
+</ul>
+
+<h3>4. Development &amp; Documentation</h3>
+<ul>
+  <li><strong>Jupyter Notebook / JupyterLab</strong> — interactive analysis and reporting</li>
+  <li><strong>tqdm</strong> — progress bars for long-running preprocessing tasks</li>
+  <li><strong>json / pyyaml</strong> — configuration and metadata handling</li>
 </ul>
 
 <h2>What I Learned</h2>
 <ul>
-<li>Applying statistical reliability models to real-world grid infrastructure.</li>
-<li>Handling imperfect industrial datasets and coping with missing or inconsistent information.</li>
-<li>Extracting structured insights from unstructured text using NLP and LLMs.</li>
-<li>Translating engineering intuition into data-driven insights.</li>
-<li>Communicating results to both technical and non-technical stakeholders.</li>
-<li>Bridging electrical engineering, data science, and text analytics in an operational context.</li>
+  <li>Applying statistical reliability models to real-world grid infrastructure and interpreting their operational impact.</li>
+  <li>Designing robust preprocessing workflows to handle imperfect industrial datasets with missing or inconsistent information.</li>
+  <li>Using NLP and LLM-based techniques to extract structured insights from unstructured technician failure descriptions.</li>
+  <li>Connecting engineering intuition with data-driven evidence to support maintenance and asset-renewal decisions.</li>
+  <li>Communicating complex reliability concepts—such as hazard rates, Weibull parameters, and RUL—to both technical and non-technical stakeholders.</li>
+  <li>Bridging electrical engineering, data science, and text analytics within a unified analytical pipeline.</li>
 </ul>
+
