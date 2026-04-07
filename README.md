@@ -158,6 +158,42 @@ Insights &amp; Dashboards</code></pre>
 </ul>
 
 <h3>3. NLP &amp; LLM-Based Text Analysis</h3>
+
+<pre><code>Free‑Text Failure Descriptions
+                │
+                ▼
+     ┌──────────────────────┐
+     │ Text Preprocessing   │
+     │ • Cleaning           │
+     │ • Lemmatization      │
+     │ • Stopword removal   │
+     └──────────────────────┘
+                │
+                ▼
+     ┌──────────────────────┐
+     │ Feature Extraction    │
+     │ • Keywords            │
+     │ • Embeddings          │
+     │ • TF‑IDF / vectors    │
+     └──────────────────────┘
+                │
+                ▼
+     ┌──────────────────────┐
+     │ LLM Semantic Layer    │
+     │ • Classification      │
+     │ • Mode tagging        │
+     │ • Root cause mapping  │
+     └──────────────────────┘
+                │
+                ▼
+     ┌──────────────────────┐
+     │ Structured Labels     │
+     │ • Failure type        │
+     │ • Severity            │
+     │ • Cause category      │
+     └──────────────────────┘</code></pre>
+
+
 <p>
 Many failure records included free‑text descriptions written by field technicians. To extract structured insights, I applied a combination of <strong>NLP preprocessing</strong> and <strong>LLM-assisted classification</strong>:
 </p>
