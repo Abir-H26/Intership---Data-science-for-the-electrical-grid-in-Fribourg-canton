@@ -1,4 +1,4 @@
-<h1>Grid Infrastructure Reliability &amp; Failure Prediction (Groupe E Internship)</h1>
+<h1>Grid Infrastructure reliability &amp; Failure prediction (Groupe E Internship)</h1>
 
 <h2>Overview</h2>
 <p>
