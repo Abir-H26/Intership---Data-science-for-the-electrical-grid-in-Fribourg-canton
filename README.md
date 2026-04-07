@@ -210,6 +210,8 @@ These techniques significantly improved the quality of the reliability models by
 
 <h3>4. Weibull reliability modeling</h3>
 
+![Weibull Law Curves](Weibul_law_pdf.png)
+
 <pre><code>Time-to-Failure Data
         │
         ▼
