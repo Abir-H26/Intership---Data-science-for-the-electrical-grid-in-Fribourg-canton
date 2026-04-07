@@ -2,7 +2,7 @@
 
 <h2>Overview</h2>
 <p>
-This project was completed during my internship at <strong>Groupe E</strong>, a major Swiss energy provider responsible for the operation and maintenance of low-, medium-, and high-voltage electrical networks.
+This project was completed during my internship at <strong>Groupe E</strong>, a major Swiss energy provider responsible for the operation and maintenance of low, medium, and high-voltage electrical networks.
 The objective was to analyze historical equipment failures, understand their root causes, and build <strong>predictive reliability models</strong> using <strong>Weibull distributions</strong> to estimate future failure probabilities.
 </p>
 <p>
