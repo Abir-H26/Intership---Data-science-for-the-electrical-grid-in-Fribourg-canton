@@ -31,7 +31,7 @@ The work combines <strong>data science</strong>, <strong>power systems engineeri
 ├──────────────────────────────────────────────────────────┤
 │  Outputs                                                  │
 │     • Hazard curves                                       │
-│     • RUL estimation                                      │
+│     • Remaining Useful Life (RUL) estimation              │
 │     • Failure mode classification                         │
 │     • Maintenance &amp; renewal insights                     │
 └──────────────────────────────────────────────────────────┘</code></pre>
