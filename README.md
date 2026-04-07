@@ -18,7 +18,6 @@ Due to contractual and operational confidentiality requirements at Groupe E:
 <li><strong>The exact production code developed during the internship cannot be published.</strong></li>
 </ul>
 <p>
-All examples in this repository use <strong>synthetic or anonymized data</strong>, and the code reflects the <strong>general methodology</strong>, not the internal implementation.
 This README focuses on the conceptual framework, analytical approach, and insights that can be publicly disclosed.
 </p>
 
