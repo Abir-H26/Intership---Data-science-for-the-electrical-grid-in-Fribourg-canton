@@ -37,7 +37,7 @@ The work combines <strong>data science</strong>, <strong>power systems engineeri
 └──────────────────────────────────────────────────────────┘</code></pre>
 
 
-<h2>Confidentiality Notice</h2>
+<h2>Confidentiality notice</h2>
 <p>
 Due to contractual and operational confidentiality requirements at Groupe E:
 </p>
@@ -59,7 +59,7 @@ This README focuses on the conceptual framework, analytical approach, and insigh
 <li><strong>Decision support:</strong> Provide insights for maintenance optimization and asset renewal planning.</li>
 </ul>
 
-<h2>Data Description (Example)</h2>
+<h2>Data description (Example)</h2>
 <p>
 The original dataset included operational and maintenance information for equipment across the grid. The synthetic data in this repository mimics:
 </p>
@@ -139,7 +139,7 @@ The original dataset included operational and maintenance information for equipm
 Insights &amp; Dashboards</code></pre>
 
 
-<h3>1. Data Cleaning &amp; Preprocessing</h3>
+<h3>1. Data cleaning &amp; Preprocessing</h3>
 <ul>
 <li>Standardized equipment categories and voltage levels.</li>
 <li>Removed duplicates and inconsistent timestamps.</li>
@@ -157,9 +157,9 @@ Insights &amp; Dashboards</code></pre>
 <li>Keyword and topic patterns extracted from text descriptions.</li>
 </ul>
 
-<h3>3. NLP &amp; LLM-Based Text Analysis</h3>
+<h3>3. NLP &amp; LLM-Based Text analysis</h3>
 
-<pre><code>Free‑Text Failure Descriptions
+<pre><code>Free‑text failure descriptions
                 │
                 ▼
      ┌──────────────────────┐
@@ -208,7 +208,7 @@ Many failure records included free‑text descriptions written by field technici
 These techniques significantly improved the quality of the reliability models by enriching the dataset with <strong>consistent, machine-readable failure labels</strong>.
 </p>
 
-<h3>4. Weibull Reliability Modeling</h3>
+<h3>4. Weibull reliability modeling</h3>
 
 <pre><code>Time-to-Failure Data
         │
@@ -251,7 +251,7 @@ Interpretation:
 <li>β &gt; 1: wear-out failures.</li>
 </ul>
 
-<h3>5. Predictive Insights</h3>
+<h3>5. Predictive insights</h3>
 <ul>
 <li>Estimated hazard curves for each voltage level and equipment family.</li>
 <li>Computed remaining useful life distributions.</li>
@@ -263,7 +263,7 @@ Interpretation:
 <pre><code>┌──────────────────────────────────────────────────────────────────────────┐
 │                         END‑TO‑END WORKFLOW                              │
 ├──────────────────────────────────────────────────────────────────────────┤
-│ 1. Data Sources                                                           │
+│ 1. Data sources                                                           │
 │    • Equipment metadata                                                   │
 │    • Failure logs                                                         │
 │    • Technician text descriptions                                         │
@@ -279,19 +279,19 @@ Interpretation:
 │    • Semantic classification (LLM)                                        │
 │    • Failure mode tagging                                                 │
 ├──────────────────────────────────────────────────────────────────────────┤
-│ 4. Reliability Modeling                                                   │
+│ 4. Reliability modeling                                                   │
 │    • Weibull fit                                                          │
 │    • Hazard curves                                                        │
 │    • RUL estimation                                                       │
 ├──────────────────────────────────────────────────────────────────────────┤
-│ 5. Decision Support                                                       │
+│ 5. Decision support                                                       │
 │    • Maintenance prioritization                                           │
 │    • Asset renewal planning                                               │
 │    • Long-term failure forecasting                                        │
 └──────────────────────────────────────────────────────────────────────────┘</code></pre>
 
 
-<h2>Key Results (High-Level Summary)</h2>
+<h2>Key results (High-Level Summary)</h2>
 <ul>
   <li><strong>Identified reliability profiles</strong> for LV, MV, and HV equipment families, revealing distinct aging behaviors and failure dynamics across the grid.</li>
   <li><strong>Extracted structured failure modes</strong> from technician reports using NLP and LLM-based semantic tagging, reducing ambiguity in historical records.</li>
@@ -302,7 +302,7 @@ Interpretation:
 </ul>
 
 
-<h2>My Achievements During the Internship</h2>
+<h2>My achievements during the internship</h2>
 <ul>
   <li><strong>Designed and implemented</strong> an end-to-end reliability analysis pipeline, from raw data ingestion to Weibull-based forecasting.</li>
   <li><strong>Developed NLP and LLM-powered tools</strong> to interpret unstructured technician failure descriptions, enabling consistent failure mode classification across asset families.</li>
@@ -317,14 +317,14 @@ Interpretation:
 
 <h2>Tools &amp; Technologies</h2>
 
-<h3>1. Data Processing &amp; Analysis</h3>
+<h3>1. Data processing &amp; Analysis</h3>
 <ul>
   <li><strong>pandas</strong> — data cleaning, merging, preprocessing</li>
   <li><strong>numpy</strong> — numerical computations</li>
   <li><strong>scipy</strong> — statistical functions and optimization</li>
 </ul>
 
-<h3>2. Reliability Engineering</h3>
+<h3>2. Reliability engineering</h3>
 <ul>
   <li><strong>reliability</strong> — Weibull fitting, hazard curves, survival analysis, RUL estimation</li>
   <li><strong>matplotlib</strong> — reliability curve visualization</li>
