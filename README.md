@@ -9,6 +9,34 @@ The objective was to analyze historical equipment failures, understand their roo
 The work combines <strong>data science</strong>, <strong>power systems engineering</strong>, <strong>statistical reliability analysis</strong>, and <strong>natural language processing (NLP)</strong> for extracting structured insights from unstructured failure descriptions.
 </p>
 
+<pre><code>┌──────────────────────────────────────────────────────────┐
+│        GRID INFRASTRUCTURE RELIABILITY PROJECT           │
+├──────────────────────────────────────────────────────────┤
+│  Historical Data (Structured + Text)                     │
+│     • Equipment metadata                                  │
+│     • Failure timestamps                                  │
+│     • Maintenance logs                                    │
+│     • Free‑text failure descriptions                      │
+├──────────────────────────────────────────────────────────┤
+│  Data Processing                                          │
+│     • Cleaning &amp; standardization                         │
+│     • Text preprocessing (NLP)                            │
+│     • LLM-based semantic tagging                          │
+│     • Time-to-failure computation                         │
+├──────────────────────────────────────────────────────────┤
+│  Analysis                                                 │
+│     • EDA (patterns, trends, clusters)                    │
+│     • Text mining (topics, keywords, modes)               │
+│     • Weibull reliability modeling                        │
+├──────────────────────────────────────────────────────────┤
+│  Outputs                                                  │
+│     • Hazard curves                                       │
+│     • RUL estimation                                      │
+│     • Failure mode classification                         │
+│     • Maintenance &amp; renewal insights                     │
+└──────────────────────────────────────────────────────────┘</code></pre>
+
+
 <h2>Confidentiality Notice</h2>
 <p>
 Due to contractual and operational confidentiality requirements at Groupe E:
