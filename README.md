@@ -59,7 +59,7 @@ This README focuses on the conceptual framework, analytical approach, and insigh
 <li><strong>Decision support:</strong> Provide insights for maintenance optimization and asset renewal planning.</li>
 </ul>
 
-<h2>Data Description (Synthetic Example)</h2>
+<h2>Data Description (Example)</h2>
 <p>
 The original dataset included operational and maintenance information for equipment across the grid. The synthetic data in this repository mimics:
 </p>
@@ -99,6 +99,45 @@ The original dataset included operational and maintenance information for equipm
 </table>
 
 <h2>Methodology</h2>
+
+<pre><code>Raw Data
+   │
+   ▼
+┌────────────────────────────┐
+│ Data Cleaning              │
+│ • Remove duplicates        │
+│ • Fix timestamps           │
+│ • Standardize categories   │
+└────────────────────────────┘
+   │
+   ├───────────────► Text Fields (Descriptions)
+   │                     │
+   │                     ▼
+   │         ┌────────────────────────────┐
+   │         │ NLP + LLM Processing       │
+   │         │ • Tokenization             │
+   │         │ • Keyword extraction       │
+   │         │ • Semantic clustering      │
+   │         │ • Failure mode tagging     │
+   │         └────────────────────────────┘
+   │
+   ▼
+┌────────────────────────────┐
+│ Structured Dataset          │
+│ (with enriched labels)      │
+└────────────────────────────┘
+   │
+   ▼
+┌────────────────────────────┐
+│ Reliability Modeling        │
+│ • Weibull fit               │
+│ • Hazard function           │
+│ • RUL estimation            │
+└────────────────────────────┘
+   │
+   ▼
+Insights &amp; Dashboards</code></pre>
+
 
 <h3>1. Data Cleaning &amp; Preprocessing</h3>
 <ul>
