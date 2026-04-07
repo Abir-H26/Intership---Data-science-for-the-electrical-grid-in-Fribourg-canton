@@ -209,6 +209,29 @@ These techniques significantly improved the quality of the reliability models by
 </p>
 
 <h3>4. Weibull Reliability Modeling</h3>
+
+<pre><code>Time-to-Failure Data
+        │
+        ▼
+┌────────────────────────────┐
+│ Weibull Fit                │
+│ • Estimate β (shape)       │
+│ • Estimate η (scale)       │
+└────────────────────────────┘
+        │
+        ▼
+┌────────────────────────────┐
+│ Reliability Outputs         │
+│ • PDF / CDF                 │
+│ • Hazard function h(t)      │
+│ • Survival function S(t)    │
+│ • RUL distribution          │
+└────────────────────────────┘
+        │
+        ▼
+Maintenance &amp; Renewal Strategy</code></pre>
+
+
 <p>
 Weibull analysis was used to model time-to-failure:
 </p>
