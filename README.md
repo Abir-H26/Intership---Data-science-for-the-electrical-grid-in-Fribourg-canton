@@ -260,6 +260,37 @@ Interpretation:
 <li>Linked text-derived failure modes to reliability patterns.</li>
 </ul>
 
+<pre><code>┌──────────────────────────────────────────────────────────────────────────┐
+│                         END‑TO‑END WORKFLOW                              │
+├──────────────────────────────────────────────────────────────────────────┤
+│ 1. Data Sources                                                           │
+│    • Equipment metadata                                                   │
+│    • Failure logs                                                         │
+│    • Technician text descriptions                                         │
+├──────────────────────────────────────────────────────────────────────────┤
+│ 2. Preprocessing                                                          │
+│    • Cleaning + standardization                                           │
+│    • Time-to-failure computation                                          │
+│    • NLP preprocessing of text                                            │
+├──────────────────────────────────────────────────────────────────────────┤
+│ 3. NLP &amp; LLM Analysis                                                     │
+│    • Keyword extraction                                                   │
+│    • Topic clustering                                                     │
+│    • Semantic classification (LLM)                                        │
+│    • Failure mode tagging                                                 │
+├──────────────────────────────────────────────────────────────────────────┤
+│ 4. Reliability Modeling                                                   │
+│    • Weibull fit                                                          │
+│    • Hazard curves                                                        │
+│    • RUL estimation                                                       │
+├──────────────────────────────────────────────────────────────────────────┤
+│ 5. Decision Support                                                       │
+│    • Maintenance prioritization                                           │
+│    • Asset renewal planning                                               │
+│    • Long-term failure forecasting                                        │
+└──────────────────────────────────────────────────────────────────────────┘</code></pre>
+
+
 <h2>Key Results (High-Level Summary)</h2>
 <ul>
 <li><strong>LV equipment:</strong> high failure count, mostly random behavior (β ≈ 1).</li>
